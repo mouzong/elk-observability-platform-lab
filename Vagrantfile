@@ -73,7 +73,7 @@ Vagrant.configure("2") do |config|
 
   vms = [
     {
-      name: "es01", cpus: 2, memory: 5120,
+      name: "es01", cpus: 2, memory: 8192,
       ips: ["192.168.10.11"]
     },
     {
